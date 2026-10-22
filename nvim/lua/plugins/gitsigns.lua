@@ -6,6 +6,6 @@ return {
         signcolumn = true,
         current_line_blame = true,
         numhl = true,
-        linehl = true
+        linehl = true,
     }
 }

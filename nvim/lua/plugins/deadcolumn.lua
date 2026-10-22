@@ -1,5 +1,7 @@
 return {
     "Bekaboo/deadcolumn.nvim",
     lazy = false,
-    config = true,
+    opts = {
+        scope = "visible",
+    },
 }

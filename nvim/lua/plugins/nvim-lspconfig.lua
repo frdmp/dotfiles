@@ -1,7 +1,6 @@
 return {
     "neovim/nvim-lspconfig",
-    lazy = false,
-    config = function(_, opts)
+    config = function()
         local capabilities = require("cmp_nvim_lsp").default_capabilities()
         local servers = { "texlab", "rust_analyzer", "ruff", "ty" }
 

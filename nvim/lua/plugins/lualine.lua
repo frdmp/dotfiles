@@ -1,5 +1,10 @@
 return {
     "nvim-lualine/lualine.nvim",
     lazy = false,
-    config = true,
+    opts = {
+        options = {
+            theme = "auto",
+            globalstatus = true,
+        },
+    },
 }

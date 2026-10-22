@@ -1,9 +1,8 @@
 return {
     "sunjon/shade.nvim",
     lazy = false,
-    config = true,
     opts = {
-        overlay_opacity = 40,
+        overlay_opacity = 30,
         opacity_step = 5,
         keys = {
             brightness_up = "<C-Up>",
